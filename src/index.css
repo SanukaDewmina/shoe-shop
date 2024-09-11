@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  user-select: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+a.active hr{
+  opacity: 1;
+}
+
+.slider:hover .type{
+  bottom: 0;
+}
+
+.sliderMain::-webkit-scrollbar{
+  width: 0;
+}
